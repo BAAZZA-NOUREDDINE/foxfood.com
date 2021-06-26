@@ -1,0 +1,63 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    background-image: url(restaurant.jpg);
+    background-size: cover;
+}
+form{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    width: 350px;
+    height: 420px;
+    background: rgba(0, 0, 0, .5);
+    border-radius: 15px;
+    box-sizing: border-box
+}
+img{
+    position: relative;
+    bottom: 80px;
+    left: 45px;
+}
+h2{
+    color: white;
+    position: relative;
+    bottom: 160px;
+    text-align: center;   
+}
+input{
+    position: relative;
+    left: 40px;
+    bottom: 175px;
+    height: 30px;
+    width: 250px;
+    margin: 3px;
+    background: rgba(0, 0, 0, .5);
+    border: none;
+    outline: none;
+    color: white;
+}
+textarea{
+    position: relative;
+    left: 40px;
+    bottom: 170px;
+    height: 70px;
+    width: 250px;
+    background: rgba(0, 0, 0, .5);
+    border: none;
+    outline: none;
+    color: white;
+}
+.send{
+    background-color: rgb(203, 67, 53 );
+    position: absolute;
+    top: 345px;
+    width: 70px;
+    left: 138px;
+}
+.send:hover{
+    background: limegreen;
+    color:  rgb(230, 126, 34 )
+ }

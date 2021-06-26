@@ -1,0 +1,50 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    background-image: url(restaurant.jpg);
+    background-size: cover;
+}
+header{
+    text-align: center;
+    text-transform: uppercase;
+    justify-content: space-between;
+}
+header nav{
+    margin-right: 40px;
+    align-items: center;
+}
+header nav a{
+    color:rgb(211, 84, 0); 
+    position: relative;
+    bottom: 200px;
+    left: 550px;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+header #LOGO{
+    position: relative;
+    bottom: 80px;
+    right: 650px;
+}
+.menu{
+    max-width: 1200px;
+    height: auto;
+    margin: auto;
+    background: #f2f2f2;
+    overflow: auto;
+}
+.photos{
+    margin: 5px;
+    border: 5px solid #ccc;
+    float: left;
+    width: 580px;
+}
+.photos img{
+    width: 100%;
+    height: auto;
+}
+.desc{
+    padding: 15px;
+    text-align: center;
+}
